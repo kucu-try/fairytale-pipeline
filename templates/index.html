@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>동화 생성기</title>
+  </head>
+  <body>
+    <h1>동화 생성기</h1>
+    <form action="/story" method="post">
+      <input type="text" name="keywords" placeholder="예: 공주, 용, 마법" />
+      <label for="voices">목소리 선택:</label>
+      <select name="selected_voice">
+        <option value="alloy">alloy</option>
+        <option value="echo">echo</option>
+        <option value="fable">fable</option>
+        <option value="onyx">onyx</option>
+        <option value="nova">nova</option>
+        <option value="shimmer">shimmer</option>
+      </select>
+      <button type="submit">동화 생성</button>
+    </form>
+  </body>
+</html>
